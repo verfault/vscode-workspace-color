@@ -3,6 +3,7 @@
   "displayName": "Workspace Color",
   "description": "Change an editor's color depending on the active folder in workspace.",
   "version": "0.0.1",
+  "publisher": "byeful",
   "icon": "images/icon.png",
   "engines": {
     "vscode": "^1.60.0"
