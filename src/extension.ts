@@ -32,15 +32,16 @@ export function activate(context: ExtensionContext) {
 
     for (let i = 0; i < folders.length; ++i) {
       const folder = folders[i];
+      const documentPath = evt.document.uri.path.toLowerCase();
+      const folderPath = folder.uri.path.toLowerCase();
 
-      if (evt.document.uri.path.includes(folder.uri.path)) {
+      if (documentPath.includes(folderPath)) {
         if (activeColor === folder.color) return;
-
-        workbench.update('colorCustomizations', { 
-          'titleBar.activeBackground': folder.color 
-        }, false);
-  
         activeColor = folder.color;
+        
+        workbench.update('colorCustomizations', { 
+          'titleBar.activeBackground': activeColor 
+        }, false);
         break;
       }
     }

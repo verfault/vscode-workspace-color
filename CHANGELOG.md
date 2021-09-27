@@ -4,6 +4,14 @@ All notable changes to the "workspace-color" extension will be documented in thi
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [Unreleased]
+## [0.0.2] - 2021-09-27
 
-- Initial release
+### Fixed
+
+- Fix issue the active color didn't change due to case sensitivity in paths' comparing
+
+## [0.0.1] - 2021-09-25
+
+### Added
+
+- Basic functionality of changing colors in different active folders.
