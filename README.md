@@ -1,16 +1,13 @@
 # Workspace Color
 
-Change an editor's color depending on the active folder in workspace.
+The extension allows you to set unique color per each **Workspace Folder**.
 
 ## Usage
 
-* Open workspace.
-* Change files between different folders in the workspace.
-* Look at title bar color - it has to be changed to a random color which assigned to a folder on extension's startup.
+- Open a ```Workspace```.
+- Set your own colors per each **Workspace Folder** by ```Workspace Color: Change Color``` in the **Command Palette**.
+- Editor's ```Title Bar``` has to be changed to the selected color assigned to workspace folder or to the random one if it hasn't been selected yet.
 
 ## Known issues
 
-* Can't choose own colors instead of random.
-* Colors for folders changes every time editor starts up.
-* The title bar color doesn't change to default in folder with no workspace.
-* Poor usage instruction without pictures.
+- The ```Title Bar``` color doesn't change to default in folders which are out of any workspace.

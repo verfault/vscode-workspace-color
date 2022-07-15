@@ -18,8 +18,18 @@
     "Visualization"
   ],
   "activationEvents": [
-    "onStartupFinished"
+    "onStartupFinished",
+    "onCommand:workspaceColor.changeColor",
+    "onCommand:workspaceColor.restart"
   ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "workspaceColor.changeColor",
+        "title": "Workspace Color: Change color"
+      }
+    ]
+  },
   "main": "./dist/extension.js",
   "scripts": {
     "vscode:prepublish": "yarn run package",

@@ -4,6 +4,10 @@ All notable changes to the "workspace-color" extension will be documented in thi
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.1.0] - 2022-07-15
+
+- Added availability to set own custom colors per each workspace.
+
 ## [0.0.2] - 2021-09-27
 
 ### Fixed
