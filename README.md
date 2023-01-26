@@ -1,13 +1,18 @@
 # Workspace Color
 
-The extension allows you to set unique color per each **Workspace Folder**.
+The extension allows you to set custom color for `Title Bar` per each `Workspace`.
 
-## Usage
+**P.S.** Also works with `Multi-root Workspaces`.
 
-- Open a ```Workspace```.
-- Set your own colors per each **Workspace Folder** by ```Workspace Color: Change Color``` in the **Command Palette**.
-- Editor's ```Title Bar``` has to be changed to the selected color assigned to workspace folder or to the random one if it hasn't been selected yet.
+## How to use
 
-## Known issues
+- Open a `Workspace`.
 
-- The ```Title Bar``` color doesn't change to default in folders which are out of any workspace.
+- Press `Ctrl` + `Shift` + `P`
+
+- Type ```Workspace Color: Set Color``` to select workspace to set necessery color for `Title Bar` in HEX-format.
+
+- Type ```Workspace Color: Clear Color``` to select workspace to clear custom `Title Bar` color.
+
+## Notes 
+- The extension changes `.vscode/settings.json` to set color of `Title Bar`.

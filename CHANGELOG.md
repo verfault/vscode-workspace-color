@@ -4,6 +4,17 @@ All notable changes to the "workspace-color" extension will be documented in thi
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [1.0.0] - 2023-01-26
+
+**WARNING! That's a major update which might be incompatible with previous versions.**
+
+### Added 
+- Method to manually remove a selected color for each workspace.
+
+### Changed
+- No more random colors. From now on every workspace's color has to be chosen manually.
+- Renamed method from 'Choose Color' to 'Set Color'.
+
 ## [0.1.0] - 2022-07-15
 
 - Added availability to set own custom colors per each workspace.

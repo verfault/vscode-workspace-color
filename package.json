@@ -2,15 +2,15 @@
   "name": "workspace-color",
   "displayName": "Workspace Color",
   "description": "Change an editor's color depending on the active folder in workspace.",
-  "version": "0.1.0",
-  "publisher": "byeful",
+  "version": "1.0.0",
+  "publisher": "verfault",
   "icon": "images/icon.png",
   "engines": {
     "vscode": "^1.60.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/byeful/vscode-workspace-color"
+    "url": "https://github.com/verfault/vscode-workspace-color"
   },
   "categories": [
     "Other",
@@ -18,15 +18,17 @@
     "Visualization"
   ],
   "activationEvents": [
-    "onStartupFinished",
-    "onCommand:workspaceColor.changeColor",
-    "onCommand:workspaceColor.restart"
+    "onStartupFinished"
   ],
   "contributes": {
     "commands": [
       {
-        "command": "workspaceColor.changeColor",
-        "title": "Workspace Color: Change color"
+        "command": "workspaceColor.setColor",
+        "title": "Workspace Color: Set Color"
+      },
+      {
+        "command": "workspaceColor.clearColor",
+        "title": "Workspace Color: Clear Color"
       }
     ]
   },
